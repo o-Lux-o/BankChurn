@@ -5,7 +5,6 @@ import joblib as jl
 import matplotlib.pyplot as pt
 import seaborn as sb
 from matplotlib.colors import LinearSegmentedColormap
-from DatosSinteticos import generarDatosSinteticos
 
 
 @st.cache_data
