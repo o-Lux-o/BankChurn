@@ -9,7 +9,7 @@ from matplotlib.colors import LinearSegmentedColormap
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv('bank_churn_limpio.csv')
+    return pd.read_csv('Data/bank_churn_limpio.csv')
 
 data = cargar_datos()
 
@@ -30,7 +30,7 @@ nombresEs = {
 }
 
 def cargarModelo():
-    data = jl.load('modelo_banco_final.pkl')
+    data = jl.load('Modelo/modelo_banco_final.pkl')
     return data['modelo'], data['columnas'], data['umbral']
 
 modelo, columnas, umbral = cargarModelo()
