@@ -2,6 +2,10 @@
 
 Este proyecto de Data Science se enfoca en predecir la salida de clientes en el sector bancario. El objetivo principal no es solo generar una predicción, sino entender los patrones de comportamiento que llevan a un cliente a dejar la entidad. Al identificar variables críticas como la edad o el volumen de productos contratados, el sistema permite generar estrategias de retención que aportan valor directo al negocio.
 
+---
+## Dashboard
+**Accede al dashboard:** [bankchurn-ly-project.streamlit.app/](https://bankchurn-ly-project.streamlit.app/)
+---
 
 ## Procesamiento de Datos
 
